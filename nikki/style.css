@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "Adobe Caslon Pro";
+	background-image: url(nikki.jpg);
+	background-repeat: repeat;
+}
+.halo {
+	width: 243px;
+	height: 320px;
+	border-radius: 10%;
+	background-color: #C00;
+	margin: 70px auto;
+	
+	-moz-animation-name: halo;
+	-webkit-animation-name: halo;
+	-moz-animation-duration: 10s;
+	-webkit-animation-duration: 10s;
+	-moz-animation-timing-function: ease-in-out;
+	-webkit-animation-timing-fucntion: ease-in-out;
+	-moz-animation-play-state: running; 
+	-webkit-animation-play-state: running;
+	-moz-animation-iteration-count: infinite; 
+	-webkit-animation-iteration-count: infinite;
+}
+	
+.nikki {
+	position: absolute;
+	top: 80px;
+	width:203px;
+	height:280px;	
+	margin: auto;
+}
+.big {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	width:203px;
+	height:280px;
+	z-index: 10;
+	background-color: #36F;
+
+
+	background-image: url(big_nikki.jpg);
+	
+	-moz-animation-name: james;
+	-webkit-animation-name: james;
+	-moz-animation-duration: 9s;
+	-webkit-animation-duration: 9s;
+	-moz-animation-timing-function: ease-in-out;
+	-webkit-animation-timing-fucntion: ease-in-out;
+	-moz-animation-play-state: running; 
+	-webkit-animation-play-state: running;
+	-moz-animation-iteration-count: infinite; 
+	-webkit-animation-iteration-count: infinite;
+}
+.james {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	width:203px;
+	height:280px;
+	z-index: 3;
+	background-image: url(james.jpg);
+
+}
+
+
+@-moz-keyframes james {
+	0% {}
+	50% {
+		opacity: 0;
+	}
+	100% {}
+}
+@-webkit-keyframes james  {
+	0% {}
+	50% {
+		opacity: 0;
+	}
+	100% {}
+}
+
+@-moz-keyframes halo {
+	0% {background-color: #C00 ;}
+	16% {background-color:  #F93;}
+	33% {background-color: #FF3;}
+	49% {background-color: #093;}
+	65% {background-color: #00D;}
+	82% {background-color: #90F;}
+	100% {background-color: #C00;}
+	
+}
+@-webkit-keyframes halo  {
+	0% {background-color: #C00 ;}
+	16% {background-color:  #F93;}
+	33% {background-color: #FF3;}
+	49% {background-color: #093;}
+	65% {background-color: #00D;}
+	82% {background-color: #90F;}
+	100% {background-color: #C00;}
+	
+}

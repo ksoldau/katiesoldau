@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #3CF;
+}
+.gifs {
+	background-image: url(malikcropped.gif);
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 250px;
+	position: absolute;
+	right: -55px;
+}
+.words {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 140px;
+	color: #009;
+	text-align: center;
+	margin: 80px 0 40px 0;
+}
+.cropping { 
+position: relative;
+width: 110px;
+height: 150px;
+overflow:hidden;
+	margin: auto;
+}

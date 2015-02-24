@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FF8F8F;
+}
+div {
+	margin: 10% auto auto 15%;
+	text-align: left;
+}
+p {
+	font: Georgia, "Times New Roman", Times, serif;
+	font-size: 80px;
+	color: #CCFFFF;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	font-size: 110px;
+	color: #CCFFFF;
+}
+.wershenheimer a { 
+	color: #CCCCFF;
+}
+.dit {
+	margin: 90px 0 0 0;
+}
+.dingle_dong a {
+	color: #CCFFE6;
+}
+.pumpernickel a {
+	color: #FFFFCC;
+}
+.turdle_nugget a {
+	color: #8FFFFF;
+}
+.groshen_lounge a {
+	color: #FFCCFF;
+}
+.derma_permakurdle a {
+	color: #CCFFE6;
+}
+a:link {
+}
+a:active {
+}
+a:visited {
+}
+a.current {
+}
+a:hover {
+}

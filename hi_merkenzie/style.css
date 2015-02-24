@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFE4E1;
+}
+.mack {
+	margin: 15%;
+	text-align: center;
+}
+p {
+	color: #FCC;
+	font: "Courier New", Courier, monospace;
+	font-size: 80px;
+	color: #FCC;
+	margin: 0;
+	
+	-moz-animation-name: colors;
+	-webkit-animation-name: colors;
+	-moz-animation-duration: 10s;
+	-webkit-animation-duration: 10s;
+	-moz-animation-timing-function: ease-in-out;
+	-webkit-animation-timing-fucntion: ease-in-out;
+	-moz-animation-play-state: running; 
+	-webkit-animation-play-state: running;
+	-moz-animation-iteration-count: infinite; 
+	-webkit-animation-iteration-count: infinite;
+}
+ @-moz-keyframes colors {
+ 0% {
+color: #39F;
+}
+10% {
+color: #F33;
+}
+20% {
+color: #90F;
+}
+30% {
+color: #CF6;
+}
+40% {
+color: #09F;
+}
+50% {
+color: #F99;
+}
+60% {
+color: #6F6;
+}
+70% {
+color: #C30;
+}
+80% {
+color: #FF0;
+}
+90% {
+color:#36F;
+}
+100% {
+color: #39F;
+}
+}
+
+@-webkit-keyframes colors {
+ 0% {
+color: #39F;
+}
+10% {
+color: #F33;
+}
+20% {
+color: #90F;
+}
+30% {
+color: #CF6;
+}
+40% {
+color: #09F;
+}
+50% {
+color: #F99;
+}
+60% {
+color: #6F6;
+}
+70% {
+color: #C30;
+}
+80% {
+color: #FF0;
+}
+90% {
+color:#36F;
+}
+100% {
+color: #39F;
+}
+}

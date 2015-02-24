@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #E8926B;
+}
+.words {
+	font-family: Impact, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 370px 0 0 0;
+}
+.picture {
+	background-image: url(picture.jpg);
+	height: 480px;
+	width:640px;
+	margin: 20px auto 0;
+	float: left;
+}
+.picture_container {
+	margin: 55px auto 0;
+	height: 480px; 
+	width: 640px;
+}
